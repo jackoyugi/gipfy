@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Giphy} from './giphy'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Giphy';
+ // giphys:Giphy[] = [
+  //  {id:1, name:'Giphy'},
+ //   {id:2, name:'Stickers'}
+ // ];
+
+
+  constructor (){
+ // this.giphys= [];
+}
 }

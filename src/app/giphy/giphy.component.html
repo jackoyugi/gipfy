@@ -1,0 +1,20 @@
+<div class="container">
+    <h1>Giphy</h1>
+    <hr>
+    <div class="row">
+        <app-giphy-form></app-giphy-form>
+         <div class="col-md-12">
+            <div *ngFor='let giphy of giphys; let i = index'>
+            <div>
+                <h4 id={{i}}>{{giphy.name}}</h4>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <blockquote class="blockquote text-center">
+            <p class="mb-0">{{gifs.stickers}}</p>
+            <footer class="blockquote-footer"><cite>{{gifs.Gifs}}</cite></footer>
+          </blockquote>
+    </div>
+</div>
